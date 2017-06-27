@@ -19,7 +19,7 @@ int main(){
     cout << "Please enter a exponent : ";
     cin >> limit;
 
-    for(int i = 0; i < limit; i++){
+    for(int i = 0; i <= limit; i++){
         cout << "2 of " << i << " is : " << raiseToPower(2, i) << endl;
     }
     return 0;
